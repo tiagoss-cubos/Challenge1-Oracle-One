@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="PT-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="https://fonts.googleapis.com/css?family=VT323:regular" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css?family=Coiny:regular" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css?family=Special+Elite:regular" rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Challenge Oracle ONE</title>
+    <link rel="stylesheet" href="./styles/reset.css">
+    <link rel="stylesheet" href="./styles/style.css" />
+    <link
+      rel="shortcut icon"
+      type="image/x-icon"
+      href="./assets/crypto-img.ico"
+    />
+  </head>
+  <body>
+    <h1 class="titulo">criptografia</h1>
+    <main class="main">
+      <section  id="mensagem">
+        <form action="">
+          <label class="label" for="input-texto">Apenas letras minúsculas, sem acento!</label>
+          <input
+            class="text-input"
+            type="text"
+            name="input-texto"
+            id="input-texto"
+            placeholder="insira o seu segredo aqui"
+          />
+          <input
+            class="btn"
+            type="button"
+            value="CRIPTOGRAFAR"
+            id="btn-cripto"
+            onclick="encoder(event)"
+          />
+          <input
+            class="btn"
+            type="button"
+            value="DESCRIPTOGRAFAR"
+            id="btn-descripto"
+            onclick="decoder(event)"
+          />
+        </form>
+      </section>
+
+      <section class="box">   
+        <label class="label" id="msg-label" style="display: none;">Mensagem criptografada:</label>
+        <input class="text-input text-inpu--active" type="text" id="msg" style="display: none;" />
+        <div class="display-flex">
+          <input class="btn" type="submit" value="COPIAR" id="btn-copy" onclick="copiar()" style="display: none;" />
+          <input class="btn" type="button" value="LIMPAR" id="btn-clear" onclick="limpar()" style="display: none;" />
+        </div>
+        <img class="image" src="./assets/img-msg.svg" alt="" id="img-msg-cripto">
+        <h2 id="msg-cripto1">Nenhuma mensagem encontrada</h2>
+        <span id="msg-cripto2">Digite um texto que você deseja <br>criptografar ou descriptografar.</span>
+      </section>
+    </main>
+    <footer>
+      <div class="footer-rigth">
+        <p>Desenvolvido por Tiago Silva &copy; 2022</p>
+        <p><a href="https://www.alura.com.br/challenges/oracle-one/semana01e02-construa-decodificador-texto-com-javascript" target="_blank">Challenge Alura - Oracle One</a></p>
+      </div>
+      <div class="footer-left" id="flex-end">
+        <ul>
+          <li class="footer-list">
+            <a href="https://www.linkedin.com/in/tiago-s-s/" target="_blank"
+              ><i style="font-size: 24px; color: #000;" class="fa">&#xf08c;</i></a
+            >
+          </li>
+          <li class="footer-list">
+            <a href="https://github.com/tiagoss-cubos" target="_blank"
+              ><i style="font-size:24px; color: #000;" class="fa">&#xf09b;</i></i
+            ></a>
+          </li>
+        </ul>
+      </div>
+    </footer>
+    <script src="script.js"></script>
+  </body>
+</html>
