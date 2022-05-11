@@ -10,9 +10,9 @@ Nesse projeto, o desafio era criar um codificador e decodificador utilizando ape
 - [CSS básico](https://developer.mozilla.org/pt-BR/docs/Learn/CSS/First_steps/Getting_started)
 - [Javascript básico](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Guide/Introduction)
 
-### Acesse o link abaixo para jogar
+### Acesse o link abaixo para usá-lo
 
-- [Codificador](https://tiagoss-cubos.github.io)
+- [Codificador](https://tiagoss-cubos.github.io/challenge-oracle-one/)
 
 ### Implementações futuras:
 
