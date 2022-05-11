@@ -12,7 +12,7 @@ Nesse projeto, o desafio era criar um codificador e decodificador utilizando ape
 
 ### Acesse o link abaixo para jogar
 
-- [Codificador](https://tiagoss-cubos.github.io)
+- [Codificador](https://tiagoss-cubos.github.io/challenge-oracle-one/)
 
 ### Implementações futuras:
 
